@@ -4,4 +4,4 @@ Index::= [0-9]+
 Format ::= [^\}]+
 Template ::= (Text | Hole)*
 Hole ::=  '{' ('@' | '$')? (Name | Index) (',' Alignment)? (':' Format)? '}'
-Alignment ::= '-'?[0-9]+
+Alignment ::= '-'?[1-9][0-9]*
